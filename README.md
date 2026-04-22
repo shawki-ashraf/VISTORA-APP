@@ -148,19 +148,47 @@ lib/
 │   ├── firebase_service.dart
 │   ├── checkout.dart
 │   ├── constant.dart
+│   ├── paymob/
 │
 ├── features/
+│
 │   ├── auth/
+│   │   ├── createAccount_view/
+│   │   └── login_view/
+│   │       ├── cubit/
+│   │       ├── data/
+│   │       ├── view/
+│   │       └── widgets/
+│
 │   ├── cart/
+│   │   ├── cubit/
+│   │   ├── view/
+│   │   └── widgets/
+│
 │   ├── favorite/
+│   │   ├── cubit/
+│   │   ├── view/
+│
 │   ├── home/
+│   │   ├── cubit/
+│   │   └── views/
+│
 │   ├── onboarding/
+│
 │   ├── productsdetails/
+│
 │   ├── profile/
+│   │   ├── cubit/
+│   │   ├── data/
+│   │   └── view/
+│
 │   ├── search/
+│   │   ├── cubit/
+│   │   └── view/
+│
 │   ├── shared_widgets/
 │
-└── main.dart
+└── firebase_options.dart
 ```
 
 ---
